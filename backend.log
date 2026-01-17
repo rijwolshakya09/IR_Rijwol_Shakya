@@ -1,0 +1,29 @@
+INFO:     Will watch for changes in these directories: ['/Users/dmn/Documents/Projects/IR/IR-shankar-ghimire/IR_Rijwol_Shakya/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [26883] using WatchFiles
+INFO:     Started server process [26911]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:62629 - "GET /search?query&page=1&size=8&sort=score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62628 - "GET /model-info?model_type=naive_bayes HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'main.py', 'search.py', 'indexer.py', 'clustering_ml.py', 'classification_ml.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [26911]
+INFO:     Started server process [29420]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py', 'indexer.py', 'search.py', 'clustering_ml.py', 'classification_ml.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29420]
+INFO:     Started server process [29497]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29497]
+INFO:     Stopping reloader process [26883]
